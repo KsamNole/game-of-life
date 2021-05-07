@@ -1,6 +1,8 @@
 import pygame
 import math
 
+#Игра жизнь (можете загуглить), рисуем левой кнопкой мышки, старт правой кнопкой мыши
+
 # Цвета (R, G, B)
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -101,7 +103,7 @@ class GameOfLife:
             clock.tick(self.fps)
         pygame.quit()
 
-game = GameOfLife(320, 320, 10 ,30)
+game = GameOfLife(640, 640, 10 ,30)
 game.run()
 
 
