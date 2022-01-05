@@ -1,5 +1,4 @@
 # Game Of Life
-***
 
 ## Описание
 - __[Wikipedia](https://ru.wikipedia.org/wiki/Игра_«Жизнь»)__
